@@ -134,3 +134,4 @@ dmypy.json
 #Ignore from the app
 #potentially create a copy version just for display on github
 learnmach/__init__.py
+learnmach/site.db
