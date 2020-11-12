@@ -1,4 +1,4 @@
-from learnmach import db
+from learnmachine import db
 
 
 class Todo(db.Model):

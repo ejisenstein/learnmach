@@ -1,4 +1,4 @@
-from learnmach import app
+from learnmachine import app
 
 
 if __name__ == "__main__":

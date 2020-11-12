@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request, redirect, url_for
-from learnmach import db, app
-from learnmach.models import Todo
+from flask import Flask, render_template, url_for, request, redirect, url_for
+from learnmachine import db, app
+from learnmachine.models import Todo
+
 
 @app.route('/')
 def index():
@@ -35,4 +36,3 @@ def delete(todo_id):
     db.session.delete(todo)
     db.session.commit()
     return redirect(url_for("index"))
-
